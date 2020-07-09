@@ -1,0 +1,29 @@
+===================================================================================
+my own project
+https://uptech.team/blog/create-app-like-tiktok
+https://github.com/Cleveroad/ARFaceDetection
+https://github.com/Anasmp/tiktok-ui
+https://www.youtube.com/watch?v=kJ2mGh5BLYk	
+https://www.youtube.com/watch?v=4OzSOM7uYZw
+https://github.com/Marlon-Paulo-da-Silva/TikTok-Clone-ReactNative
+https://github.com/szdc/tiktok-api
+https://github.com/mcofie/Tik-Tok-App-Clone-Flutter
+https://github.com/mgp25/TikTok
+https://github.com/pikami/tiktok-dl
+https://github.com/tolgatasci/musically-tiktok-api-python
+https://github.com/davidteather/TikTok-Api
+
+
+
+=======================================================
+Video marking part
+thumbs up and down tag not require for each part,
+ video starting means thumb is up at 0 ,Now conditions will be
+1-new thumb is up ,in this case thumb from 0 will move to the new time
+2-thumb is down ,in this case video will be deleted from thumb up to down and thumb down will set to infinity
+=======================================================
+thumb detection methods
+1-convert the video in images and detect the thumb up and downin frames then delete in between frames and delete frames having thumbsup and down.but this 
+method is good when video is recoreded completely.and this is time taken process.
+2-
+==============================================
